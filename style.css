@@ -183,6 +183,7 @@ article section h1::before {
 
   .nome {
     text-align: start;
+    font-size: 2rem;
   }
 
   .subtitulo {
@@ -204,13 +205,19 @@ article section h1::before {
   }
 
   .imgprod {
-    max-width: 100%;
+    max-width: 640px;
     height: auto;
   }
 
   .divlogo {
     margin-top: 20px;
     gap: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .imgprod{
+    max-width: 100%;
   }
 }
 
